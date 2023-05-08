@@ -5,8 +5,8 @@ export function Login(){
     const navigation = useNavigation()
     return(
         <View style={styles.Container}>
-            <Text>Opa</Text>
-            <TouchableOpacity style={styles.TouchableOpacity}  onPress={()=>(navigation.navigate('Cadastro'))}><Text>Login</Text></TouchableOpacity>   
+            <Text>Essa é a tela inicial </Text>
+            <TouchableOpacity style={styles.TouchableOpacity}  onPress={()=>(navigation.navigate('Cadastro'))}><Text>Entar</Text></TouchableOpacity>   
         </View>
     );
 }
